@@ -1,0 +1,46 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #113f67;
+    border-radius: 8px;
+}
+
+.contactForm>label {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.contactForm>input {
+    padding: 8px;
+    letter-spacing: 0.06em;
+    color: #113f67;
+    background-color: #e7eaf6;
+    border: 1px solid #113f67;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+
+.contactForm>button {
+    width: 80%;
+    padding: 6px;
+    margin-top: 20px;
+    align-self: center;
+    color: #113f67;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    background-color: #a2a8d3;
+    border: 1px solid #a2a8d3;
+    border-radius: 3px;
+}
+
+.contactForm>button:hover {
+    background-color: #38598b;
+    color: #113f67;
+    cursor: pointer;
+}

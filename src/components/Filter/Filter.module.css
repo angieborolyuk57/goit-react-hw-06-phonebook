@@ -1,0 +1,40 @@
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    gap: 10px;
+}
+
+label {
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    font-weight: 700;
+    color: #38598b;
+}
+
+input {
+    padding: 8px;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+    color: #38598b;
+    background-color: #e7eaf6;
+    border: 1px solid #113f67;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+input:hover {
+    color: #ffffff; /* White color on hover */
+}
+
+input:focus {
+    outline: none;
+}

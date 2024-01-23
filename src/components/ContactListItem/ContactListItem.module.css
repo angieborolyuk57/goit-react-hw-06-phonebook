@@ -1,0 +1,28 @@
+.listItem {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #113f67; /* Blue color */
+}
+
+.listItemBtn {
+    width: 100px;
+    padding: 2px;
+    color: #e7eaf6;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    background-color: #38598b;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.listItemBtn:hover {
+    background-color: #38598b;
+    color: #000000;
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
+    /* transform: scale(1.05); */
+    cursor: pointer;
+}
